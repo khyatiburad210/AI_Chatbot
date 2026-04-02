@@ -1,42 +1,67 @@
-# 🤖 AI Chatbot using Langchain & Streamlit
+🤖 AI Chatbot using Langchain & Streamlit
 
-An AI-powered conversational chatbot built using Langchain and OpenAI API with an interactive Streamlit UI.
+🚀 Live Demo
 
-## 🚀 Features
-- Real-time conversational chatbot
-- Interactive web UI using Streamlit
-- Maintains chat history (session-based)
-- Uses OpenAI GPT model for responses
+👉 https://aichatbot-27juhwvagdrmaaatshfaar.streamlit.app
 
-## 🛠️ Tech Stack
+---
+
+📌 Project Overview
+
+This project is an AI-powered chatbot built using Langchain and Streamlit. It allows users to interact with an AI model and get real-time responses to their queries. The chatbot provides a simple and interactive interface for seamless communication.
+
+---
+
+🧠 Features
+
+- Interactive chatbot UI using Streamlit
+- Real-time AI responses
+- Maintains chat history
+- Integrated with OpenRouter API
+- Easy to use and responsive interface
+
+---
+
+🛠 Tech Stack
+
 - Python
-- Langchain
-- OpenAI API
 - Streamlit
+- Langchain
+- OpenRouter API
 
-## 📸 Demo
+---
 
-### 🔹 Chat Interface
-![UI](demo1.png)
+📸 Demo Screenshots
 
-### 🔹 Chat Example
-![Chat](demo2.png)
+"Demo1" (demo1.png)
+"Demo2" (demo2.png)
 
-## ▶️ How to Run
-1. Clone the repository:
-   git clone https://github.com/your-username/your-repo-name
+---
+
+▶️ How to Run Locally
+
+1. Clone the repository
 
 2. Install dependencies:
    pip install -r requirements.txt
 
-3. Add your API key in .env file:
-   OPENAI_API_KEY=your_key
+3. Add your API key in ".env" file:
+   OPENAI_API_KEY=your_key_here
 
-4. Run the app:
+4. Run the application:
    streamlit run streamlit_app.py
 
-## 📌 Use Case
-This project demonstrates how to build and deploy an AI chatbot for real-world applications like customer support, education, and assistance tools.
+---
 
-## 📌 Author
+📌 Future Improvements
+
+- Add multiple AI model support
+- Improve UI/UX design
+- Add voice input/output feature
+- Store chat history permanently
+
+---
+
+👩‍💻 Author
+
 Khyati Burad
