@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage
 from dotenv import load_dotenv
@@ -8,6 +9,7 @@ load_dotenv()
 st.title("🤖 AI Chatbot")
 
 llm = ChatOpenAI(
+    api_key=os.getenv("OPENAI_API_KEY"),
     model="gpt-4o-mini",
     temperature=0.7
 )
