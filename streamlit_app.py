@@ -8,8 +8,7 @@ load_dotenv()
 st.title("🤖 AI Chatbot")
 
 llm = ChatOpenAI(
-    base_url="https://openrouter.ai/api/v1",
-    model="openai/gpt-3.5-turbo",
+    model="gpt-4o-mini",
     temperature=0.7
 )
 if "messages" not in st.session_state:
