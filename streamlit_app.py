@@ -1,18 +1,17 @@
 import streamlit as st
-import os
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage
-from dotenv import load_dotenv
-
-load_dotenv()
+import os
 
 st.title("🤖 AI Chatbot")
 
 llm = ChatOpenAI(
-    api_key=os.environ["OPENAI_API_KEY"],  # 👈 IMPORTANT
-    model="gpt-4o-mini",
+    base_url="https://openrouter.ai/api/v1",
+    api_key=os.environ["OPENAI_API_KEY"],
+    model="openai/gpt-3.5-turbo",
     temperature=0.7
 )
+
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
