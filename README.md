@@ -15,7 +15,12 @@ An AI-powered conversational chatbot built using Langchain and OpenAI API with a
 - Streamlit
 
 ## 📸 Demo
-(Add your screenshot here)
+
+### 🔹 Chat Interface
+![UI](demo1.png)
+
+### 🔹 Chat Example
+![Chat](demo2.png)
 
 ## ▶️ How to Run
 1. Clone the repository:
