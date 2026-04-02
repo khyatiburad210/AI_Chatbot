@@ -9,7 +9,7 @@ load_dotenv()
 st.title("🤖 AI Chatbot")
 
 llm = ChatOpenAI(
-    api_key=os.getenv("OPENAI_API_KEY"),
+    api_key=os.environ["OPENAI_API_KEY"],  # 👈 IMPORTANT
     model="gpt-4o-mini",
     temperature=0.7
 )
